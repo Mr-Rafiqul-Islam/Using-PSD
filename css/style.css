@@ -1,0 +1,98 @@
+/* all common css starts here  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1175px;
+}
+.clr{
+    clear: both;
+}
+/* all common css ends here  */
+.home{
+    background: url(../images/Waxom-Hemepage.jpg);
+    height: 1020px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/* =========header part=========  */
+.header{
+    background: #00000000;
+    
+}
+.header .logo{
+    padding-top: 25px;
+    width: 190px;
+    float: left;
+}
+.header .menu{
+    width: 985px;
+    float: left;
+    text-align: right;
+}
+
+.header .menu ul li{
+    display: inline-block;
+}
+.header .menu ul li a{
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120px;
+    padding: 0 10px;
+}
+/* =========header part end=========  */
+
+/* ===========banner part===========  */
+
+.banner .content h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner .content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 52px;
+    margin-bottom: 25px;
+}
+.banner .content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.content{
+    width: 620px;
+    text-align: center;
+    margin: 270px auto;
+}
+.content a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.btn{
+    padding: 20px 35px;
+    background: #998675;
+    border-radius: 5px;
+}
+/* ===========banner part End===========  */
